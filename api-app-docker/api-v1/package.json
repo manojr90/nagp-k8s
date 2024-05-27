@@ -1,0 +1,16 @@
+{
+    "name": "api-service",
+    "version": "1.0.0",
+    "description": "A simple Node.js API that connects to a PostgreSQL database",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "pg": "^8.7.1"
+    },
+    "author": "Manoj Rawat",
+    "license": "MIT"
+  }
+  

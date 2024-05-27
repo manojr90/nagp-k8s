@@ -1,0 +1,9 @@
+config:
+  target: "http://13.71.110.54"
+  phases:
+    - duration: 120
+      arrivalRate: 80
+scenarios:
+  - flow:
+      - get:
+          url: "/items"
